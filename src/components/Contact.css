@@ -1,0 +1,100 @@
+
+.contact__container{
+        display:flex;
+        align-items: center;
+    }
+
+  .container{
+    width:1200px;
+    margin: 0 auto;
+  }
+
+  .common{
+    width: 33.3333%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .mainHeader{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color:  #405059;
+  }
+
+.container form .fields{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+ .contact{
+        width:100%;
+        background: white;
+        padding: 100px 0;
+        }
+
+
+.container form .fields .field input{
+    height: 40px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    
+
+}
+
+form .name{
+    padding-top: 10px;
+}
+
+form .email{
+    padding-top: 10px;
+}
+
+form .subject{
+    padding-top: 10px;
+}
+
+.container form .textarea{
+padding-top: 10px;
+}
+
+.container form .textarea textarea{
+    height: 80px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    font-size: 17px;
+    padding: 0 15px;
+    resize: none;
+
+}
+
+.btn{
+    height: 47px;
+}
+
+.btn button{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #52f28d;
+    border-radius: 50px;
+    background: white;
+    font-size: 18px;
+    color: teal;
+    cursor: pointer;
+    transition: all 0.3s each;
+}
+
+.btn button:hover{
+    color:white;
+    background: #52f28d;
+}

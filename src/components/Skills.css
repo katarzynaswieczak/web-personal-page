@@ -1,0 +1,137 @@
+.container{
+    width:1200px;
+    margin: 0 auto;
+  }
+    .common{
+      width: 33.3333%;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    .mainHeader{
+        font-size: 32px;
+        margin-bottom: 10px;
+        color:  #405059;
+      }
+
+      .skills{
+        width:100%;
+        background: white;
+        padding: 100px 0;
+        }
+        
+
+    .skills__container{
+        display:flex;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .row{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+      }
+
+    .row .col-6{
+        width: calc(50% -30px);
+      }
+
+      .skills__info h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .col-6 .bars{
+          margin-bottom: 15px;
+          margin-right: 50px;
+      }
+
+      .col-6 .bars .info{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
+      .col-6 .bars .info span{
+          font-weight: 500;
+          font-size: 18px;
+      }
+      
+      .line{
+          height: 5px;
+          width: 100%;
+          background: lightgray;
+          position: relative;
+
+      }
+
+      .line::before{
+          content: "";
+          position: absolute;
+          height: 100%;
+          width: 80%;
+          left: 0;
+          top: 0;
+          background: #52f28d;
+      }
+
+      .logosoftware::before{
+        width: 80%;
+    }
+
+    .autocad::before{
+        width: 70%;
+    }
+
+    .cx::before{
+        width: 80%;
+    }
+
+    .tia::before{
+        width: 40%;
+    }
+    .wincc::before{
+        width: 40%;
+    }
+
+    .gx::before{
+        width: 80%;
+    }
+
+    .rs::before{
+        width: 20%;
+    }
+
+    /*infa*/
+    .html::before{
+        width: 50%;
+    }
+
+    .css::before{
+        width: 50%;
+    }
+
+    .js::before{
+        width: 20%;
+    }
+    .react::before{
+        width: 20%;
+    }
+
+    .boot::before{
+        width: 10%;
+    }
+    .cpp::before{
+        width: 50%;
+    }
+    .mat::before{
+        width: 40%;
+    }
+
+
+
+    
